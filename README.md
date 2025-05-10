@@ -1,4 +1,4 @@
-#(https://github.com/user-attachments/files/20131926/Welcome.pdf)
+https://github.com/user-attachments/files/20131926/Welcome.pdf
 
  AttentionLens Chatbot
 
