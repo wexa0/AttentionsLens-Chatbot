@@ -4,7 +4,7 @@
  # Attena bot
  ## AttentionLens Chatbot
 
-This repository contains the **AI-powered assistant backend** for the AttentionLens application — a productivity and task management app specifically designed to support individuals with ADHD. The chatbot, named **Attena**, is powered by a fine-tuned GPT-3.5 Turbo model and integrates tightly with Firebase to deliver personalized, intelligent, and structured task support.
+This repository contains the **AI-powered assistant backend** for the AttentionLens application, a productivity and task management app specifically designed to support individuals with ADHD. The chatbot, named **Attena**, is powered by a fine-tuned GPT-3.5 Turbo model and integrates tightly with Firebase to deliver personalized, intelligent, and structured task support.
 
 ---
 
