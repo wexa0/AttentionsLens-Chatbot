@@ -59,6 +59,8 @@ python chatbot_finetuned_gpt3_5.py
 
 This will launch the Firestore listener and start responding to messages in real-time.
 
+---
+
 ## 💻 Flutter Frontend
 The Flutter frontend of the AttentionLens application can be found at the following repository:
 
