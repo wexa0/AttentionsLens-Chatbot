@@ -1,7 +1,8 @@
 
 ![Welcome (19)](https://github.com/user-attachments/assets/caed207e-75da-441d-92a8-dbca934b083a)
 
- # AttentionLens Chatbot
+ # Attena bot
+ ## AttentionLens Chatbot
 
 This repository contains the **AI-powered assistant backend** for the AttentionLens application — a productivity and task management app specifically designed to support individuals with ADHD. The chatbot, named **Attena**, is powered by a fine-tuned GPT-3.5 Turbo model and integrates tightly with Firebase to deliver personalized, intelligent, and structured task support.
 
@@ -14,7 +15,6 @@ The AttentionLens chatbot helps ADHD users overcome daily productivity challenge
 - 💡 ADHD-focused guidance (time management, focus strategies, etc.)
 - 😊 Emotionally supportive interaction with natural language processing
 - 🔐 Secure data handling via Firebase integration
-
 
 ---
 
@@ -37,6 +37,23 @@ pip install -r requirements.txt
 Place your Firebase service account key JSON file in the same directory. Make sure it matches the name in the code (e.g., attensionlens-db-firebase-adminsdk-fsdxz-8d6dc28e0f.json).
 
 4. Set OpenAI API Key
-Inside chatbot_finetuned_gpt3_5.py, replace the placeholder in this line with your own OpenAI key:
+Inside chatbot_finetuned_gpt3_5.py, replace the placeholder in this line with your our key(inside ReadME File):
+
+```bash
+client = OpenAI(api_key="Our_Key_for_OpenAI_API")
+
+```
+
+5. Run the Bot
+```bash
+python chatbot_finetuned_gpt3_5.py
+```
+
+This will launch the Firestore listener and start responding to messages in real-time.
+
+
+
+
+
 
 
