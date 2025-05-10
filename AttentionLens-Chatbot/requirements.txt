@@ -1,0 +1,6 @@
+firebase-admin
+openai
+dateparser
+psutil
+beautifulsoup4
+pyspellchecker
