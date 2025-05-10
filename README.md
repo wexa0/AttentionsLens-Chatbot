@@ -23,25 +23,37 @@ The AttentionLens chatbot helps ADHD users overcome daily productivity challenge
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AttentionLens.git
-cd AttentionLens/chatbot_backend
+git clone https://github.com/wexa0/AttentionsLens-Chatbot.git
+cd AttentionsLens-Chatbot/AttentionLens-Chatbot
 ```
-2. Install Dependencies
+This command will download all project files to your computer and take you into the backend folder. 
+### 2. Install Python 3.9+ (if not already installed)
+If you don’t have Python installed, download it from:
+🔗 https://www.python.org/downloads/
+
+After installation, verify by running:
+```bash
+python --version
+```
+You should see something like: Python 3.9.x or higher.
+
+### 3. Install Project Dependencies
 Make sure you are using Python 3.9+, then run:
 
 ```bash
 pip install -r requirements.txt
 ```
+This will install all the necessary libraries.
 
-3. Set OpenAI API Key
-Inside chatbot_finetuned_gpt3_5.py, replace the placeholder in this line with your our key(inside ReadME File):
+### 4. Set OpenAI API Key
+Inside chatbot_finetuned_gpt3_5.py, replace the placeholder in this line with our key (inside README file):
 
 ```bash
 client = OpenAI(api_key="Our_Key_for_OpenAI_API")
 
 ```
 
-4. Run the Bot
+### 4. Run the Bot
 ```bash
 python chatbot_finetuned_gpt3_5.py
 ```
