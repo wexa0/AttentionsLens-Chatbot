@@ -1,6 +1,7 @@
-https://github.com/user-attachments/files/20131926/Welcome.pdf
 
- AttentionLens Chatbot
+![Welcome (19)](https://github.com/user-attachments/assets/caed207e-75da-441d-92a8-dbca934b083a)
+
+ # AttentionLens Chatbot
 
 This repository contains the **AI-powered assistant backend** for the AttentionLens application — a productivity and task management app specifically designed to support individuals with ADHD. The chatbot, named **Attena**, is powered by a fine-tuned GPT-3.5 Turbo model and integrates tightly with Firebase to deliver personalized, intelligent, and structured task support.
 
