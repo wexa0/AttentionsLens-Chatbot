@@ -33,10 +33,7 @@ Make sure you are using Python 3.9+, then run:
 pip install -r requirements.txt
 ```
 
-3. Add Firebase Admin Credentials
-Place your Firebase service account key JSON file in the same directory. Make sure it matches the name in the code (e.g., attensionlens-db-firebase-adminsdk-fsdxz-8d6dc28e0f.json).
-
-4. Set OpenAI API Key
+3. Set OpenAI API Key
 Inside chatbot_finetuned_gpt3_5.py, replace the placeholder in this line with your our key(inside ReadME File):
 
 ```bash
@@ -44,7 +41,7 @@ client = OpenAI(api_key="Our_Key_for_OpenAI_API")
 
 ```
 
-5. Run the Bot
+4. Run the Bot
 ```bash
 python chatbot_finetuned_gpt3_5.py
 ```
