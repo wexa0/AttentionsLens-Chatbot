@@ -1,8 +1,7 @@
 
 ![Welcome (19)](https://github.com/user-attachments/assets/caed207e-75da-441d-92a8-dbca934b083a)
 
- # Attena bot
- ## AttentionLens Chatbot
+ # Attena bot -- AttentionLens Chatbot
 
 This repository contains the **AI-powered assistant backend** for the AttentionLens application, a productivity and task management app specifically designed to support individuals with ADHD. The chatbot, named **Attena**, is powered by a fine-tuned GPT-3.5 Turbo model and integrates tightly with Firebase to deliver personalized, intelligent, and structured task support.
 
@@ -59,6 +58,11 @@ python chatbot_finetuned_gpt3_5.py
 ```
 
 This will launch the Firestore listener and start responding to messages in real-time.
+
+## 💻 Flutter Frontend
+The Flutter frontend of the AttentionLens application can be found at the following repository:
+
+🔗 https://github.com/wexa0/2024-25_GP_19
 
 
 
