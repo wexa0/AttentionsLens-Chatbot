@@ -8,7 +8,7 @@ This repository contains the **AI-powered assistant backend** for the AttentionL
 
 ---
 
-## 🎯 Project Purpose
+## 🎯 Chatbot Objectives 
 
 The AttentionLens chatbot helps ADHD users overcome daily productivity challenges by offering:
 - 📌 Clear task management assistance (add, edit, delete, view tasks)
