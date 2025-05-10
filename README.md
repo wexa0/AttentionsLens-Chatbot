@@ -44,7 +44,16 @@ pip install -r requirements.txt
 ```
 This will install all the necessary libraries.
 
-### 4. Set OpenAI API Key
+### 4. set Up Firebase Admin Credentials
+To run the chatbot locally, locate the file named:
+```bash
+attensionlens-db-firebase-adminsdk-fsdxz-8d6dc28e0f.json
+```
+
+You’ll find this file is initially empty. The required content for this file is provided in the README file.
+Simply copy the JSON content from the README and paste it into the file to enable Firebase access.
+
+### 5. Set OpenAI API Key
 Inside chatbot_finetuned_gpt3_5.py, replace the placeholder in this line with our key (inside README file):
 
 ```bash
@@ -52,7 +61,7 @@ client = OpenAI(api_key="Our_Key_for_OpenAI_API")
 
 ```
 
-### 4. Run the Bot
+### 6. Run the Bot
 ```bash
 python chatbot_finetuned_gpt3_5.py
 ```
